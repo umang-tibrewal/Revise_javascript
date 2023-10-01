@@ -1,14 +1,11 @@
 // JavaScript is a dynamically typed language, which means that data types of variables are 
 // // determined by the value they hold at runtime and can
 //  change throughout the program as we assign different values to them.
-
 "use-strict"
-// this command to tret all code as new java script
+// this command to treat all code as new java script
  /**-------------------------------------------- VARIABLES IN JAVA SCRIPT-------------------------------------------------------  */
-
  let fruit="Apple"
  let numberOfFruit=54
-
  var car="honda"
  /**Try not to use var in javascript cz it is not scope friendly */
  bike="vespa"
@@ -77,3 +74,28 @@ const anyNumber =54
 // split
 
 console.log(otherString.length);
+// -------------------------------------------Maths in javascript------------------------------------------------------------
+
+let mathNumber=1000000
+// convert to string
+console.log(mathNumber.toString().length);
+// To ruppees like formate 
+console.log(mathNumber.toLocaleString('en-IN'));
+let valueMath=124.45
+// console.log(valueMath.toPrecision(4));124.5
+
+// Random value give any value between 0 and 1
+console.log(Math.random());
+
+// to have value between 0-10
+console.log(Math.floor((Math.random()*10+1)))
+
+// floor to avoide decimal 
+// +1 to avoide 0
+
+// if you want random value between two value
+let min =10
+let max=20
+
+console.log(Math.floor(Math.random()*(max-min+1))+min);
+
