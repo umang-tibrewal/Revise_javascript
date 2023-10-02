@@ -66,7 +66,6 @@ console.log(Array.isArray("umang_tibrewal"));
 console.log(Array.from("umang.tibrewal"));
 
 let score1=500
-
 let score2=600
 let score3=700
 let score4=800
