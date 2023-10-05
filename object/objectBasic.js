@@ -1,3 +1,5 @@
+// concept of sigleton and literal 
+// object that are genrated by constructor are singleton cs
 
 let symb1= Symbol("hitesh sir")
 let object1={

@@ -54,6 +54,10 @@ console.log(mergeHero);
 arr.push(100000)
 let spreadArray=[...arr,...marvelHero,...hero]
 console.log(spreadArray);
+let a=["name"]
+let b=["name"]
+let c=[...a,...b]
+console.log(c);
 
 // flate array concept 
 
