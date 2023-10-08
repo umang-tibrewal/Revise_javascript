@@ -76,4 +76,3 @@ console.log(year);
 // }
 
 // object without name as well as key explicitly mention in string
-
