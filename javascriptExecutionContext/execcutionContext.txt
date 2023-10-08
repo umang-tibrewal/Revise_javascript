@@ -1,0 +1,91 @@
+javascript execution context 
+three type
+1)global execution context 
+2)functional execution context
+3)eval   execution context
+
+
+if there is a javascript code {}
+first step->First global execution will happen which  can be assed by this method 
+second ->memory phase 
+third ->execution phase 
+
+
+
+
+let val1=54
+let  val2=10
+
+function addnumber(num1,num2){
+
+    let total=num1+num2
+    return total
+}
+
+result1=addnumber(val1,val2)
+result2=addnumber(10,5)
+
+
+for this code first global execution will generatef 
+
+
+
+then memory phase 
+val1->undefine 
+val2->undefine
+addnumber->defination
+result1->undefine
+result2->undefine
+
+
+
+execution 
+val1<-54
+val1<-10
+result1->addnumber  as it is a function again  new variable environment and executuion thead
+
+        {
+
+            memory phase
+            val1->undefine
+            val2->undefine
+            total->undefine
+
+
+            execution phase
+            num1->54
+            num2->10
+            total->54+10=64
+
+
+
+        }
+
+        after this it is deleted and its valur return to global execution
+        result1->64
+
+result2->again addnumber so again 
+                {
+                    
+            memory phase
+            total->undefine
+
+            execution phase
+            num1->54
+            num2->10
+            total->54+10=64
+
+
+
+                  }
+                   after this it is deleted and its valur return to global execution
+        result2->64
+
+
+call stack normal like other call stack in LIFO 
+
+three()
+two()
+one()
+globalstack
+
