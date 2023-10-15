@@ -1,0 +1,83 @@
+Javascript -Breandan eich 
+
+Document object Model ->(dom) everthing in html head,body can act as a object and we can access manipulate tose object through dom
+
+console.log(window)->it will give you a lot of things inside which we get document 
+
+but we mainly work on document 
+console.log(window.document)
+we observe it give html document
+
+it is so common we acan dirstly acess
+console.log(window.document)
+
+
+                                                   window
+                                                      |
+                                                   document
+                                                       |
+                                                     HTML 
+                                                       |
+                             ---------------------------------------------------------   
+                             |                                                        |
+                            HEAD                                                     BODY
+                             |                                                        |
+                         -----------------                                            DIV->ATRRIBUTE
+                         |                |                                            |   
+                        META             TITTLE                                ---------------------
+                         |                  |                                   |                   |
+                      ATRIBUTES        TEXT NODE                 ATRIBUTES<-   h1                   p
+                                                                                |                   |
+                                                                            text node           text node
+                                                                                
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+note ->html collection ,node collection and array 3 are diffrent look alike like array
+
+------------------------------------------------------------selectors-------------------------------------------------------------
+getElementById->select a paticular element by ID 
+
+
+we can manipulate them also 
+
+document.getElementById("id_name").innerHTML="<h1>umang tibrewal</h1>"
+ 
+document.getElementId("id_name").class //false in dom we need to write classNmae back it treat as classNmae so write classNmae
+document.getElementById("id_name").className 
+
+
+document.getElementById("id_name).getAttribute("give the key of attribute")
+document.getElementById("id_name).getAttribute("id")
+//id name 
+
+we can also setattribute
+
+document.getElementById.setattribute("key","value")
+
+
+we can also add style 
+const t=document.getElementById("id_name")
+t.style.backgroundColour="green"
+
+
+innerHTML->give cotent with html ex ->  <spam  style="color:green;padding:4px;diaplay:none">hello </spam> umang tibrewal 
+innerText->give contex will be displaced here ->umang tibrewal
+textcontent ->complete text without html ->hello umang tibrewal 
+
+querySelector->give first value of selected ex -first h1
+querySelectorAll ->gives all the value ex -gives all the h1
+return node list in which for each is allowed
+
+className return html document list if multiple tag with same class name 
+there we cnnot apply for each loop
+-------------------------------------------------------------------------------------------------------------------------------------
+
+

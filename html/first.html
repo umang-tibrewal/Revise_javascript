@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Dom</title>
+</head>
+<body>
+    <div class="parents">
+       <div class="day">Monday</div>
+       <div class="day">Tuesday</div>
+       <div class="day">Wednesday</div>
+       <div class="day">Thrusday</div>
+       <div class="day">Friday</div>
+    </div>
+   
+</body>
+<script>
+      let l=document.querySelector(".parents")
+
+    // console.log(l.children)
+
+    // its give a html array so  we can write
+    // console.log(l.children[0].innerHTML)
+
+    // we can also loop 
+
+    // for (let index = 0; index < l.children.length; index++) {
+    //     const element = l.children[index];
+
+    //     console.log(element);
+        
+    // }
+
+    // console.log(l.firstElementChild);
+    // console.log(l.lastElementChild)
+
+    let p=document.querySelector(".day")
+
+    // console.log(p.parentElement);
+    // console.log(p.nextElementSibling);
+
+console.log("nodes:",l.childNodes);
+
+</script>
+</html>
