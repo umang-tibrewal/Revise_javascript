@@ -1,0 +1,29 @@
+<!-- make a element and inserting it with dom -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+</body>
+<script>
+    let div=document.createElement("div")
+console.log(div);
+    div.className="main"
+    div.id=53
+
+    div.style.backgroundColor="purple"
+
+    let content=document.createTextNode("umang tibrewal")
+   //  div.innerHTML="pablo escobar"
+   // dont use inner html to use tree get travesrse and not optiise version 
+     div.appendChild(content)
+    document.body.appendChild(div)
+
+
+   </script>
+</html>

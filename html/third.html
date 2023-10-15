@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>umang</title>
+</head>
+<body>
+
+    <h1>hello</h1>
+    <ul class="yo-yo">
+
+        <li>buy milk</li>
+        <li>buy helicopter</li>
+        <li>buy noddles</li>
+    </ul>
+   
+    
+</body>
+<script>
+    function createli(value){
+      let l=document.createElement('li')
+      let content=document.createTextNode(value);
+      l.appendChild(content)
+      let y=document.querySelector(".yo-yo")
+      y.appendChild(l)
+    }
+    createli("buy scoty")      
+
+    // Edit
+     let q=document.querySelector("li:nth-child(2)")
+     let con=document.createElement("li")
+     let c=document.createTextNode("life fucked up")
+     con.appendChild(c)
+     q.replaceWith(con)
+
+    //  another method 
+
+    let m=document.querySelector("li:first-child")
+    // m.outerHTML="<li>buy helipad</li>"
+    // console.log(m);
+
+    // remove
+
+    // m.remove()
+    
+  </script>
+
+
+</html>
