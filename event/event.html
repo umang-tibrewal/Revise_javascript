@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>list of clicks</h1>
+    <ul class="fu" id="fu">
+        <li class="da"><button style="height:100px;width:250px">1</button></li>
+        <li class="day"><button style="height:100px;width:250px">2</button></li>
+        <li class="day"><button style="height:100px;width:250px">3</button></li>
+        <li class="day"><button style="height:100px;width:250px">4</button></li>
+        <li class="day"><button style="height:100px;width:250px">5</button></li>
+    </ul>
+</body>
+
+<script>
+
+    // the last parameter of this true or false signifies event propogation 
+    // there are two type of event propogation 
+    // 1)event bubbling
+    // 2)event capturing
+
+    // by defaultits event bubbling value false  down to up approch
+    // first delhi will called then india 
+
+    // event capturing by putting value true top to down approach first indian then delhi
+
+
+    // let co=document.getElementById("fu")
+    // co.addEventListener("click",(e)=>{
+
+    //     console.log("india")
+    // },true)
+
+    // let mo=document.querySelector(".da")
+    // mo.addEventListener("click",(e)=>{
+    // //   e.stopPropagation()
+    //     console.log("delhi")
+    // },true)
+
+    //to prevent this propogation we can use stopPropogation method
+
+    let a=document.querySelector("#fu")
+
+  
+
+    a.addEventListener("click",(e)=>{
+
+      
+
+         let r=(e.target.parentElement.className)
+         //or parentNode
+         //e.target.tageName give the tag name 
+         console.log(r);
+        // r.remove()
+
+
+    })
+
+</script>
+</html>
