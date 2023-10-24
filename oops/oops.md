@@ -96,4 +96,6 @@ bevarage.prototype.increment=function(){
 
 let chai =new bevarage("chai",50)
 chai.increment()
+
+// the new keyword generate an empty javascript object and then crustructor is called that link the prototye
 ```
