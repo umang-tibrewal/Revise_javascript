@@ -46,6 +46,7 @@ console.log(convertedFistString);
 
 // console.log(+true); 1
 // console.log(+"");0
+//  console.log(+"lll")NaN
 // --------------------------------------------Comparison -----------------------------------------------------------------------
 console.log(null == 0);
 console.log(null >= 0);
