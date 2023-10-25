@@ -99,3 +99,22 @@ chai.increment()
 
 // the new keyword generate an empty javascript object and then crustructor is called that link the prototye
 ```
+### use of call and this 
+
+
+```javascript 
+
+function setuser(userName){
+
+    this.userName=userName 
+}
+
+function user1(userName,userid,useremail){
+      setuser.call(this,userName)
+    this.userid=userid
+    this.useremail=useremail
+}
+
+let userone=new user1("umang","78","umang@28")
+console.log(userone)
+```

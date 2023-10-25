@@ -63,3 +63,4 @@ console.log(teacher.name)
 
 Object.setPrototypeOf(teacher,t_assis)
 console.log(teacher.insvalid);
+
