@@ -21,7 +21,7 @@ arr.shift()
 console.log(arr);
 // remore the Element
 
-// include
+// includes
 console.log(arr.includes(99));
 
 //indexof

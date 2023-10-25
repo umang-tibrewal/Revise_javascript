@@ -46,6 +46,7 @@ console.log(convertedFistString);
 
 // console.log(+true); 1
 // console.log(+"");0
+//  console.log(+"lll")NaN
 // --------------------------------------------Comparison -----------------------------------------------------------------------
 console.log(null == 0);
 console.log(null >= 0);
@@ -63,15 +64,16 @@ const anyNumber =54
  let otherString = new String("this way also help to see property when console it in chrome ")
  console.log(otherString);
 //  string common function 
-//  length
-//  slice
-//  substring
-// trim
-// indexof
-// charat
-// replace 
-// include 
-// split
+//  length gives length of the string
+//  slice  it is also like substring the only diffrence is in second parameter it can have negative value with refrence from end of the string 
+// let u="hello umang"  u.slice(1,-3) ello um
+//  substring  let u="hello umang " u.substring(1,4) ell
+// trim    remove extra space let u="umang    " u.trim() umang
+// indexOf  take an character return its index value if not found return -1  let u="umang"  u.indexOf("u") reurn 0
+// charAt  return charater take number  let u="umang"  u.chatAt(2) reurn a
+// replace let u="umang"  u.replace("u","l")  lmang
+// includes  return boolean 
+// split   return an array  let u="uman g"  let arr=u.split(" ")  [umang ,g]
 
 console.log(otherString.length);
 // -------------------------------------------Maths in javascript------------------------------------------------------------
