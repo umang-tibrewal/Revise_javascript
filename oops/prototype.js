@@ -30,6 +30,68 @@ console.log(apple.dugen())
 //***********************prototype for array and object 
 
 
+// Prototype with array 
+let arra=[94,82,77,36,45]
+
+Array.prototype.multiply=function(value){
+    
+   return  this.map((e)=>{
+        return e*value;
+    })
+    
+    
+}
+arra=arra.multiply(10)
+console.log(arra)
+//Here we have created a custom function to multiply each element of an array with a value so here this define the entire array so we maped to multiply with each element 
+
+let obj1={
+    
+    name:"umang"
+}
+// obj1.multiply(10)
+Object.prototype.name=function(){
+    
+    console.log("whats my name?")
+}
+arra.name()
+
+// Prototyping to array will not show changes in object 
+// but object prototyping will show changes in array 
+
+
+//***********prototype in object*********************
+let ornament ={
+    
+    type:"gold",
+    purity:24
+}
+
+Object.prototype.price=function(value){
+    
+ return    this.purity*value;
+    
+}
+
+console.log(ornament.price(100))
+
+
+//********************************************************************
+
+//**********prototype in string************************************
+let fruit ="apple"
+
+String.prototype.addseason=function(value){
+    let a=`${this}`
+    let b= `${this} and the season is ${value}`
+    
+    return b;
+}
+
+console.log(fruit.addseason("summer"))
+
+//*****************************************************************
+
 
 let arr=[5,4]
 
