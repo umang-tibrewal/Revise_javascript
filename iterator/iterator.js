@@ -9,14 +9,42 @@ for (const nums of arr) {
 
 // map is key value pair datastructure 
 
-let map= new Map()
-map.set("in","india")
-map.set("pk","pakistan")
+//let map= new Map()
+//map.set("in","india")
+//map.set("pk","Pakistan")
+//let str ="this is good game "
+//let map=new Map()
+//for(let a of  str ){
+    
+ //   if(a==" "){
+        
+       // continue
+  //  }
+    
+// if(map.has(a)){
+     
+     //map.set(a,map.get(a)+1)
+// }
+ 
+// else{
+     
+ //    map.set(a,1)
+ //}
+//}
+
+//map.forEach((element,key)=>{
+    
+ //  if(element>1){
+       
+    //   console.log(`${key}->${element}`)
+//   }
+//})
 
 
-for (const [key,value] of map) {
-    console.log(`key is ${key}and value is ${value}`);
-}
+
+//for (const [key,value] of map) {
+ //   console.log(`key is ${key}and value is ${value}`);
+//}
 
 // isted of[key,value ] if iterator then return array 
 
