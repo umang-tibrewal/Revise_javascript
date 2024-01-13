@@ -7,21 +7,32 @@
 </head>
 <body>
 
-    <button class="btn"></button>
+    <button id="btn">PRESS ME</button>
     
 </body>
 
 <script>
 
-    class react{
+    class React{
 
-        cunstructor(){
+        constructor(){
 
-            server="localhost:3000"
-            name="ut"
+            this.server="localhost:3000"
+          this.name="ut"
+
+            document.getElementById("btn")
+            .addEventListener("click",this.handle.bind(this))
         }
+   handle(){
 
+    console.log("button clicked")
+    console.log(this.server)
+
+   }
         
     }
+
+
+    let app= new React()
 </script>
 </html>
