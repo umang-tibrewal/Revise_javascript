@@ -5,6 +5,10 @@ let arr=[54,63]
 let sarr=arr
 sarr[1]=100
 console.log(arr[1]);
+To have a copy of an array as a value 
+deconstruct it
+let rarr=[...sarr]
+console.log(rarr) any change made to rarr will not reflect in sarr
 
 // some function in array 
 // push
