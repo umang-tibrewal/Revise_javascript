@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,16 +19,12 @@
 
 <script>
 
-    // the last parameter of this true or false signifies event propogation 
-    // there are two type of event propogation 
-    // 1)event bubbling
-    // 2)event capturing
-
-    // by defaultits event bubbling value false  down to up approch
-    // first delhi will called then india 
-
-    // event capturing by putting value true top to down approach first indian then delhi
-
+    // Here we have a unorderd list with classname fu when applied eventlistner all the child li which has a button will adds a eventlistner which when called 
+    // console india 
+    // Now we take a child element lets first one with classname da and add a eventlistner which consolelog delhi 
+    // by default or third parameter if false  and on click on first button it will first consoloe delhi then india
+    // if true then india and delhi 
+    // to only print delhi use stop progation
 
     // let co=document.getElementById("fu")
     // co.addEventListener("click",(e)=>{
@@ -37,11 +34,21 @@
 
     // let mo=document.querySelector(".da")
     // mo.addEventListener("click",(e)=>{
-    // //   e.stopPropagation()
+    // //   e.stopPropagation()   //to prevent this propogation we can use stopPropogation method ,now it will show only delhi
     //     console.log("delhi")
     // },true)
 
-    //to prevent this propogation we can use stopPropogation method
+    //The last parameter of this true or false signifies event propogation 
+    //There are two type of event propogation 
+    // 1)event bubbling
+    // 2)event capturing
+
+    // By default its event bubbling value false  down to up approch
+    // first delhi will called then india 
+
+    // event capturing by putting value true top to down approach first indian then delhi
+
+   
 
     let a=document.querySelector("#fu")
 
