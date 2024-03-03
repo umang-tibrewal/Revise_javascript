@@ -150,3 +150,45 @@ const option={
 }
 
 console.log(date.toLocaleTimeString("en-in",option))
+
+------------------------------------------------------------------------------------------------------------------------------------------
+// Functional scope and Block scope
+
+// the scope of a function is called functional scope
+// while anthing in {} include if else is called block scope
+
+
+
+// var has functional scope while let and const have block scope 
+// thats why its recomanded to use let or const over var 
+
+ // ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//  Concept of Hoisting 
+
+// console.log(a)
+// var a=54
+// the result will be undefined 
+// but as we know it should show error this happen due to hosting 
+
+// let and const also show hoisting but they donot intialise any value as var does as undefined
+
+// console.log(a)
+// let a=54
+
+// This will show error cannot acces value but it should show" a is undefined " its doesnot due to hosting
+// --------------------------------------------------------------------------------------------------------------------------------------
+
+ There are two type of DataType Primitive and Non-Primitive 
+Primitive Data type
+string
+boolean
+null
+undefined 
+non-primitive Data type
+object 
+ function 
+  Array
+
+
+
