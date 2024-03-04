@@ -76,3 +76,41 @@ console.log(year);
 // }
 
 // object without name as well as key explicitly mention in string
+
+In javascript As we know that the object are passed by refrence 
+Any change made in one object Reflect in other object
+
+to avoide this shallow copy deep copy 
+shallow copy donot work for nested object
+let fruit={
+    
+    name:"Aplle",
+    season:"AllTime"
+}
+
+
+let fruit2={...fruit}
+fruit2.season="summer"
+console.log(fruit)
+console.log(fruit2)
+
+Deep copy 
+
+
+let obj={
+    
+    name:"umang",
+    id:54,
+    location:{
+        
+        city:"kolkata",
+        state:"Bihar"
+    }
+}
+
+
+
+let obj2=JSON.parse(JSON.stringify(obj) )
+
+obj2.location.city="jamnagar"
+console.log(obj,obj2)
