@@ -1,3 +1,9 @@
+
+//Node ?
+// when we write any code we need some software to change or read that code ex compiler in case of c++
+//which  also make source code  diffrent from  normal text file simillary in javascript we need node 
+//before node the power was only with browser 
+
 // JavaScript is a dynamically typed language, which means that data types of variables are 
 // // determined by the value they hold at runtime and can
 //  change throughout the program as we assign different values to them.
@@ -48,6 +54,7 @@ console.log(convertedFistString);
 // console.log(+"");0
 //  console.log(+"lll")NaN
 // --------------------------------------------Comparison -----------------------------------------------------------------------
+console.log(undefine >0) // in every combination of this case it will show false 
 console.log(null == 0);
 console.log(null >= 0);
 
@@ -179,13 +186,15 @@ console.log(date.toLocaleTimeString("en-in",option))
 // This will show error cannot acces value but it should show" a is undefined " its doesnot due to hosting
 // --------------------------------------------------------------------------------------------------------------------------------------
 
- There are two type of DataType Primitive and Non-Primitive 
-Primitive Data type
+ There are two type of DataType 
+ Primitive
+
+Primitive Data type passed by values
 string
 boolean
 null
 undefined 
-non-primitive Data type
+non-primitive Data type passed by  refrence
 object 
  function 
   Array
