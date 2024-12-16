@@ -145,6 +145,22 @@ console.log(todayDate.toLocaleString('default',{
     month:"long",
     weekday:"long"
  }));
+
+let a = new Date()
+let option={
+    day:'2-digit',//numeric
+    month:"long", //"2-digit"
+                   //"long"
+                    //"narrow"
+                    //"numeric"
+                    //"short"
+    year:"2-digit",//numeric
+    weekday:"long" //"long"
+                   //"short"
+                   //"narrow"
+}
+
+let b=a.toLocaleString('en-IN',option)
 // --------------------------------------------------------------------------------------------------------------------------------
 // -------------------------------------------------------------------------------------------------------------------------------
 // ---------------------to print current time ----------------------------------------------------------------------------------
