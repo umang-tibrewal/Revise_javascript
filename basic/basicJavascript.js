@@ -55,11 +55,13 @@ console.log(convertedFistString);
 //  console.log(+"lll")NaN
 // --------------------------------------------Comparison -----------------------------------------------------------------------
 console.log(undefine >0) // in every combination of this case it will show false 
-console.log(null == 0);
-console.log(null >= 0);
-
+console.log(null == 0);//false
+console.log(null >= 0);//true
 // javascript auto convet null to number which is 0 --first show false cz their datatype is not same to compare use ===
 // second show true as 0 is greater and equal to 0
+console.log(null==undefine)//true
+console.log(null===undefine)//false
+
 
 // -------------------------------------------string-------------------------------------------------------------------------------
 
@@ -78,7 +80,7 @@ const anyNumber =54
 // trim    remove extra space let u="umang    " u.trim() umang
 // indexOf  take an character return its index value if not found return -1  let u="umang"  u.indexOf("u") reurn 0
 // charAt  return charater take number  let u="umang"  u.chatAt(2) reurn a
-// replace let u="umang"  u.replace("u","l")  lmang
+// replace let u="umang"  u.replace("u","l")  lmang This will only replace first character unlike java replace all character
 // includes  return boolean 
 // split   return an array  let u="uman g"  let arr=u.split(" ")  [umang ,g]
 
