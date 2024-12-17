@@ -77,7 +77,7 @@ const anyNumber =54
 //  length gives length of the string
 //  slice  it is also like substring the only diffrence is in second parameter it can have negative value with refrence from end of the string 
 // let u="hello umang"  u.slice(1,-3) ello um
-//  substring  let u="hello umang " u.substring(1,4) ell
+//  substring  let u="hello umang " u.substring(1,4) ell     note-> 1 less then the second parameter same as java
 // trim    remove extra space let u="umang    " u.trim() umang
 // indexOf  take an character return its index value if not found return -1  let u="umang"  u.indexOf("u") reurn 0
 // charAt  return charater take number  let u="umang"  u.chatAt(2) reurn a
