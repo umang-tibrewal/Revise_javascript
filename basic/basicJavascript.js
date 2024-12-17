@@ -204,19 +204,24 @@ console.log(date.toLocaleTimeString("en-in",option))
 
 // This will show error cannot acces value but it should show" a is undefined " its doesnot due to hosting
 // --------------------------------------------------------------------------------------------------------------------------------------
-
+/*
  There are two type of DataType 
- Primitive
+
+ Primitive(7)
 
 Primitive Data type passed by values
 string
 boolean
 null
 undefined 
+Number
+Symbol
+Big Int
 non-primitive Data type passed by  refrence
 object 
- function 
-  Array
+function 
+ Array
+  */
 
 
 
