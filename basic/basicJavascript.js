@@ -33,6 +33,7 @@ console.log(typeof air);
 console.log(typeof future);
 // null typeof is an object 
 // undefined typeof is undefined
+// NaN  typeof Number
 
 // ----------------------------------------------------conversion in javascript--------------------------------------------------
 
