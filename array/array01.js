@@ -37,6 +37,7 @@ console.log(arr.indexOf(100));
 let stringArr=arr.join()
 console.log(stringArr);
 console.log(typeof(stringArr));
+//Changes Array To String
 
 //slice and splice
 
