@@ -86,6 +86,13 @@ const anyNumber =54
 // split   return an array  let u="uman g"  let arr=u.split(" ")  [umang ,g]
 
 console.log(otherString.length);
+/*NOTE-> Sunstring dont work for negative and when we use greater number as first index no its take the smaller number as first index of two number 
+let a="umang"
+console.log(3,1)
+uma will be the output
+Slice takes negative value but above concept donot work and its work simmilar as substring not print the last index 
+
+*/
 // -------------------------------------------Maths in javascript------------------------------------------------------------
 
 let mathNumber=1000000
