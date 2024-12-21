@@ -31,6 +31,7 @@ console.log(arr.includes(99));
 
 //indexof
 console.log(arr.indexOf(100));
+//Return -1 if not present 
 
 //join 
 let stringArr=arr.join()
