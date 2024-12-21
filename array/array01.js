@@ -14,6 +14,7 @@ console.log(rarr) any change made to rarr will not reflect in sarr
 // push
 arr.push(93)
 console.log(arr);
+//arr.pop() remove the last element and return it 
 
 // unshift
 arr.unshift(77)
