@@ -46,6 +46,7 @@ console.log(arr.splice(0,3));
 console.log(arr);
 
 // diffrence between slice and splice is that splice  alter  the orignal array also
+/*Note ->Splice will include the element at the last index as well unlike slice*/
 
 // // concatinate two Array  concat method
  let hero=["hero","bholu","babli"]
