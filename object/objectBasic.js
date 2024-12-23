@@ -31,6 +31,6 @@ console.log(object1);
 object1.tryFunction=function(){
 console.log("hello i am a object function ");
 }
-console.log(object1.tryFunction());
-console.log(object1.tryFunction);
+console.log(object1.tryFunction()); // This will can the function and also prints an return if not given then undefine
+console.log(object1.tryFunction);// It doesnot call the function just prints that there is a function
 // ---------------------------------------------------------------------------------------------------------------------------------
