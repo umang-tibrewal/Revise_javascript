@@ -53,6 +53,7 @@ console.log(obj5);
 console.log(Object.keys(objectByCon));
 console.log(Object.values(objectByCon));
 console.log(Object.entries(objectByCon));
+console.log(objectByCon.hasOwnProperty(name));
 // ------------------------------------------------------------Deconstructing of object --------------------------------------------------------------------------------
 
 let decons={
