@@ -55,7 +55,7 @@ console.log(arr);
  let mergeHero=hero
  console.log(mergeHero);
  // its cleary show javascrity can take any value in array its taken complete marverHero array as one element 
-mergeHero=hero.concat(marvelHero)
+mergeHero=hero.concat(marvelHero) //Its return a new array concated 
 console.log(mergeHero);
 
 //spread method to keep in mind think you drop a glass what will happen it will get spread similarly its sprad the array
