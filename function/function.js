@@ -145,3 +145,20 @@ Arrow functions inherit this from their surrounding scope (lexical scope), they 
 
 
 */
+/*Rest Operator 
+When you Dont know how much value a function will have we can use rest operator simmilar to spread operator 
+it will create an array and keep adding value to it 
+let a=function(...num){
+  
+  console.log(num);
+  return 0;
+}
+console.log(a(500,600,700,800,900,1000))
+Output:
+
+[ 500, 600, 700, 800, 900, 1000 ]
+0
+
+
+
+*/
