@@ -54,6 +54,11 @@ let exampleobj={
 }
 
 console.log(exampleobj.welcome());
+/*
+The current context of node which we can see by consoling this console.log(this) will give {}
+The current context of browser which we can see by consoling log this in browser console.log(this) will give window
+
+*/
 
 // this donot work inside function 
 
