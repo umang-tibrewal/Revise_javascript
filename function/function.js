@@ -78,13 +78,14 @@ The current context of browser which we can see by consoling log this in browser
 // thisConcept()
 
 // this will return long value 
+/*The long value is function own context and this.something is not present in that context so its giving undefined */
 // ---------------------------------------------------------------------------------------------------------------------------
 let arowThis=()=>{
 
     console.log(this);
 }
 arowThis()
-// return empty parenthesis
+// return empty parenthesis cz arraow function donot create its own context in inherit from global for node its {} and for browser its window 
 
 // let addTwonumbers=()=>{
 
