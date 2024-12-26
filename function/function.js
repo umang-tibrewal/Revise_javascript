@@ -39,7 +39,7 @@ let funex=function(){
 console.log(funex());
 // -----------------------------------------------------------------------------------------------------------------------------------------
 
-// concept of this ->it represent the current state
+// concept of this ->it represent the current context
 
 let exampleobj={
 
@@ -48,7 +48,7 @@ let exampleobj={
     welcome:function (){
 
         console.log(`welcome ${this.name}`);
-        console.log(this);
+        console.log(this);// This will console log the object exampleobj
     }
   
 }
