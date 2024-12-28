@@ -183,7 +183,29 @@ const option={
 }
 
 console.log(date.toLocaleTimeString("en-in",option))
+// Donot forget to put the first option for localestring and localetimestring en-in its not timezone its the formate for the date 
 
+//For international date and time 
+  const date = new Date();
+            const formatter = new Intl.DateTimeFormat('en-US', {
+               timeZone: 'auto',    // Timezone
+    weekday: 'long',           // 'long', 'short', 'narrow'
+    year: 'numeric',           // 'numeric', '2-digit'
+    month: 'long',            // 'numeric', '2-digit', 'long', 'short', 'narrow'
+    day: 'numeric',           // 'numeric', '2-digit'
+    hour: 'numeric',          // 'numeric', '2-digit'
+    minute: 'numeric',        // 'numeric', '2-digit'
+    second: 'numeric',        // 'numeric', '2-digit'
+    hour12: true,             // true or false (24h format)
+    timeZoneName: 'short' 
+            }, {
+                timeZoneHint: {
+                    latitude: lat,
+                    longitude: lon
+                }
+            });
+
+            const timeString = formatter.format(date);
 ------------------------------------------------------------------------------------------------------------------------------------------
 // Functional scope and Block scope
 
