@@ -188,7 +188,7 @@ console.log(date.toLocaleTimeString("en-in",option))
 //For international date and time 
   const date = new Date();
             const formatter = new Intl.DateTimeFormat('en-US', {
-               timeZone: 'auto',    // Timezone
+             //  timeZone: 'auto',    // Timezone wrong cant be auto
     weekday: 'long',           // 'long', 'short', 'narrow'
     year: 'numeric',           // 'numeric', '2-digit'
     month: 'long',            // 'numeric', '2-digit', 'long', 'short', 'narrow'
@@ -198,11 +198,7 @@ console.log(date.toLocaleTimeString("en-in",option))
     second: 'numeric',        // 'numeric', '2-digit'
     hour12: true,             // true or false (24h format)
     timeZoneName: 'short' 
-            }, {
-                timeZoneHint: {
-                    latitude: lat,
-                    longitude: lon
-                }
+            }
             });
 
             const timeString = formatter.format(date);
