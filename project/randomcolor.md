@@ -1,5 +1,15 @@
-### RANDOM COLOR PROJECT FILE
 
+#### setInterval (function,time)
+#### setTimeout(function,time)
+#### with refrence let say
+#### let ref=setTimeout(function,time)
+####we can stop this interval as well
+#### clearTimeout(ref)
+#### clearInterval(ref)
+![image](https://github.com/user-attachments/assets/8b3b266f-a7a3-45af-b247-a014f8735994)
+
+
+### RANDOM COLOR PROJECT FILE
 ```javascript
 
 let interv
@@ -33,7 +43,7 @@ function setColor(){
   let stop=document.querySelector("#stop")
   stop.addEventListener("click",stopcolor,false)
 
-
+```
 
 
 
