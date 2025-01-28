@@ -1,11 +1,11 @@
 
-#### setInterval (function,time)
-#### setTimeout(function,time)
-#### with refrence let say
-#### let ref=setTimeout(function,time)
-####we can stop this interval as well
-#### clearTimeout(ref)
-#### clearInterval(ref)
+ setInterval (function,time) </br>
+ setTimeout(function,time) </br>
+ with refrence let say </br>
+let ref=setTimeout(function,time) </br>
+we can stop this interval as well </br>
+ clearTimeout(ref) </br>
+clearInterval(ref) </br>
 ![image](https://github.com/user-attachments/assets/8b3b266f-a7a3-45af-b247-a014f8735994)
 
 
