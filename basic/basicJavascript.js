@@ -34,7 +34,10 @@ console.log(typeof future);
 // null typeof is an object 
 // undefined typeof is undefined
 // NaN  typeof Number
-
+typeOf(function)
+//Function
+typeOf(class)
+//Function 
 // ----------------------------------------------------conversion in javascript--------------------------------------------------
 
 let firstString="33abc"
@@ -247,6 +250,14 @@ object
 function 
  Array
   */
-
-
+Script tag in Head
+<script defer src=""></script>
+This will download the script parallel to html parsing and execute only when html is parsed 
+Script with Async 
+<script asyn src=""></script>
+This will download the script and continue executing it without without wait of dom not sugested if dom dependecy is there
+Normal Script without attribute 
+<script scr=""></script>
+when it will incounter the script tag it will stop html parsing execute the script then continue html parsing that why it is wriiten at the end of body 
+before closing body tag
 
