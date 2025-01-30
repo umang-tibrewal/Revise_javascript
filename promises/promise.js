@@ -1,4 +1,5 @@
 // // // promise ->execute later in program 
+//It represent evantual completion  or failure of an asyncronous function
 // let promiseOne =new Promise((resolve,reject)=>{
 
 
