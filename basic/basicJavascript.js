@@ -9,6 +9,8 @@
 //  change throughout the program as we assign different values to them.
 "use-strict"
 // this command to treat all code as new java script
+//It also make the code in strict case like we cannot use variable without declaration x=54 is not allowed
+//Help to make the code robust and easy to maintain
  /**-------------------------------------------- VARIABLES IN JAVA SCRIPT-------------------------------------------------------  */
  let fruit="Apple"
  let numberOfFruit=54
