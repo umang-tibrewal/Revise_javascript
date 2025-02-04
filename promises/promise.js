@@ -1,5 +1,9 @@
 // // // promise ->execute later in program 
 //It represent evantual completion  or failure of an asyncronous function
+// Promise is in one of these three state
+//1)pending -intial state neither fulfiled nor rejected
+//2)fullfiled-the promise is completed
+//3)rejected-the promise is rejected
 // let promiseOne =new Promise((resolve,reject)=>{
 
 
